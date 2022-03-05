@@ -1,35 +1,39 @@
 body {
-    font-family: 'Inconsolata', monospace;
-    font-size: 14px;
-    font-style: bold;
-    color: whitesmoke;
-    text-align: center;
-    background-color: black;
-    line-height: 2;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-style: bold;
+  color: whitesmoke;
+  text-align: center;
+  background-color: black;
+  line-height: 2;
 }
 
 hr {
-    color: white;
-    width: 80%;
+  color: white;
+  width: 80%;
 }
 
-.heading img {
-    width: 280px;
-    border-radius: 50%;
+#image {
+  width: 100%;
+  height: auto;
+  max-width: 625px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .wrap,
 .wrap a {
-    color: white;
-    text-align: right !important; 
+  color: white;
+  text-align: right !important;
 }
 
 footer p {
-    font-size: medium;
-    font-style: italic;
+  font-size: medium;
+  font-style: italic;
 }
 
 .modal-header,
 .modal-body a {
-    color: black;
+  color: black;
 }
